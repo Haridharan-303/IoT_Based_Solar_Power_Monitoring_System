@@ -20,14 +20,14 @@ float R2 = 7500.0;
 float R3 = 6800.0;
 float R4 = 12000.0;
 
-String apiKey = "UJ88A5QCI2TIPWO6";    // Enter your apiKey
-const char* ssid = "SPMS";  // Enter your WiFi Network's SSID
-const char* pass = "solarpower";  // Enter your WiFi Network's Password
+String apiKey = "Thinspeak API KEY";    // Enter your apiKey
+const char* ssid = "WIFI Name";  // Enter your WiFi Network's SSID
+const char* pass = "WIFI Password";  // Enter your WiFi Network's Password
 const char* server = "api.thingspeak.com";
 
 // Telegram BOT Token (Get from Botfather)
-#define BOT_TOKEN "7025962858:AAH0hUz9n7WL0gYkWQtQw2JiqysDQQrnB74"
-#define CHAT_ID "1621575486"
+#define BOT_TOKEN "Enter your Bot token"
+#define CHAT_ID "Enter your char id"
 
 WiFiClientSecure secured_client;
 
